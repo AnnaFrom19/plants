@@ -1,0 +1,179 @@
+@media only screen and (max-width: 1440px) {
+  body {
+    font-size: 16px;
+  }
+  h1 {
+    font-size: 35px;
+    line-height: 50px;
+  }
+  h2 {
+    font-size: 35px;
+    line-height: 46px;
+  }
+  h3 {
+    font-size: 25px;
+    line-height: 35px;
+  }
+  #main-header div.container {
+    padding: 60px 50px;
+  }
+  #main-header div.logo {
+    background-position: 0 11px;
+    padding-left: 20px;
+  }
+  #welcome .container {
+    flex-direction: row-reverse;
+    padding: 0px 48px 70px;
+  }
+  #welcome .container .welcome__inform-container {
+    padding-top: 37px;
+    padding-right: 30px;
+    width: auto;
+    min-width: 350px;
+  }
+  #welcome .container .welcome__inform-container p {
+    width: auto;
+    margin-top: 32px;
+    padding-left: 6px;
+    min-width: 340px;
+    line-height: 25px;
+  }
+  #welcome .container .welcome__inform-container .welcome__button {
+    margin-top: 34px;
+  }
+  #welcome .container .welcome__img-container {
+    padding: 44px 11px;
+  }
+  #welcome .container .welcome__img-container img {
+    width: 285px;
+    height: 260px;
+  }
+  #about .container {
+    flex-direction: column;
+    align-items: center;
+    padding: 0 50px 125px;
+  }
+  #about .container .about__img-container {
+    padding-top: 28px;
+    width: 250px;
+    height: 258px;
+  }
+  #about .container .about__img-container img {
+    width: 100%;
+  }
+  #about .container .about__inform-container {
+    width: auto;
+    padding: 0;
+  }
+  #about .container h2 {
+    margin: 40px auto 50px;
+    width: 432px;
+    text-align: center;
+  }
+  #about .container p {
+    line-height: 30px;
+    font-size: 20px;
+  }
+  #service .container {
+    padding: 58px 50px 88px;
+  }
+  #service header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 44px;
+    margin-bottom: 38px;
+  }
+  #service header h2 {
+    width: 300px;
+  }
+  #service header .service__buttons-container {
+    justify-content: flex-start;
+    width: auto;
+    gap: 38px;
+  }
+  #service .service__cards-container {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr 1fr 1fr;
+    -moz-column-gap: 107px;
+         column-gap: 107px;
+    row-gap: 55px;
+  }
+  #service .service__cards-container .one-card__wrapper {
+    width: 280px;
+    overflow-x: hidden;
+  }
+  #service .service__cards-container .one-card__wrapper p {
+    width: 215px;
+    margin: auto;
+    padding-top: 10px;
+  }
+  #prices .container {
+    padding: 41px 49px 75px;
+  }
+  #prices .container h2 {
+    font-size: 35px;
+    line-height: 42px;
+    padding-left: 16px;
+  }
+  #prices .container ul.prices__list {
+    list-style-type: none;
+    gap: 32px;
+    margin: 56px 1px;
+  }
+  #prices .container ul.prices__list li {
+    font-size: 20px;
+  }
+  #prices .container .prices__header-and-buttons {
+    width: 300px;
+    text-align: right;
+    padding-top: 99px;
+  }
+  #prices .container .prices__header-and-buttons button {
+    margin-top: 28px;
+    margin-bottom: 29px;
+  }
+  #prices .container .prices__header-and-buttons .prices__img-container {
+    margin-right: -10px;
+  }
+  #contacts .container {
+    flex-direction: column;
+    align-items: center;
+    padding: 35px 60px 0;
+  }
+  #contacts .container h2 {
+    order: 1;
+    padding-left: 0;
+  }
+  #contacts .container .contacts__cards-container {
+    order: 2;
+  }
+  #contacts .container .contacts__cards-container .contacts__city-list {
+    height: 50px;
+  }
+  #contacts .container .contacts__img-container {
+    order: 3;
+  }
+  #contacts .container .contacts__img-container picture {
+    width: 200px;
+    margin-bottom: -3px;
+    padding-left: 10px;
+  }
+  footer .container {
+    flex-direction: column;
+    align-items: center;
+    padding: 33px 109px;
+    gap: 3px;
+  }
+  footer .container .footer__git-link {
+    font-size: 20px;
+    line-height: 24px;
+    margin-left: 27px;
+  }
+  footer .container .footer__git-link .github {
+    margin-left: 3px;
+  }
+  footer .container .footer__social-links__container {
+    margin-left: -13px;
+    margin-top: -3px;
+  }
+}/*# sourceMappingURL=adaptive_768.css.map */

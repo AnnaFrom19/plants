@@ -1,0 +1,28 @@
+#service .one-card__wrapper {
+  filter: blur(0);
+  transition: 0.5s;
+}
+#service.Gardens div.Gardens {
+  filter: blur(0) !important;
+}
+#service.Gardens div.Lawn, #service.Gardens div.Planting {
+  filter: blur(2px);
+}
+#service.Lawn div.Lawn {
+  filter: blur(0) !important;
+}
+#service.Lawn div.Gardens, #service.Lawn div.Planting {
+  filter: blur(2px);
+}
+#service.Planting div.Planting {
+  filter: blur(0) !important;
+}
+#service.Planting div.Gardens, #service.Planting div.Lawn {
+  filter: blur(2px);
+}
+
+.funky {
+  font: 20px/24px fantasy;
+  font-weight: bold;
+  color: purple;
+}/*# sourceMappingURL=service_blur.css.map */

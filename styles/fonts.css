@@ -1,0 +1,18 @@
+@font-face {
+  font-family: "Inika";
+  src: url("../assets/fonts/Inika-Regular.ttf");
+}
+@font-face {
+  font-family: "Inika";
+  font-weight: 700;
+  src: url("../assets/fonts/Inika-Bold.ttf");
+}
+@font-face {
+  font-family: "Inter";
+  src: url("../assets/fonts/Inter-Regular.ttf");
+}
+@font-face {
+  font-family: "Inter";
+  font-weight: 700;
+  src: url("../assets/fonts/Inter-Bold.ttf");
+}/*# sourceMappingURL=fonts.css.map */

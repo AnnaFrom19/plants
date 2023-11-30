@@ -1,0 +1,31 @@
+#service {
+    .one-card__wrapper {
+        filter: blur(0);
+        transition: 0.5s;
+    }
+    &.Gardens {
+        div.Gardens {        
+                filter: blur(0) !important;        
+          }
+        div.Lawn, div.Planting { filter: blur(2px);}
+    }
+    
+    &.Lawn {
+        div.Lawn {        
+            filter: blur(0) !important;        
+      }
+      div.Gardens, div.Planting { filter: blur(2px);}
+    
+    }
+    
+    &.Planting {
+        div.Planting {        
+            filter: blur(0) !important;        
+      }
+      div.Gardens, div.Lawn { filter: blur(2px);}}
+}
+
+.funky {
+     font: 20px/24px fantasy {weight: bold;};
+     color: mix(red, blue);
+    }

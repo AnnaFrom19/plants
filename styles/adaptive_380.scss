@@ -1,0 +1,246 @@
+@media only screen and (max-width: 700px) {
+    body {
+        font-size: 16px;
+    }
+    h1 {
+        font-size: 25px;
+        line-height: 35px;
+    }
+    h2 {        
+        font-size: 25px;
+        line-height: 33px;
+    }
+    
+    h3 {        
+        font-size: 20px;
+        line-height: 35px;
+    }
+    button {
+        height: 37px;
+        width: 120px;
+        font-size: 15px;    
+    }
+    #main-header {
+        div.container {
+            padding: 50px 25px;
+        }            
+    }
+    #welcome {
+        .container {            
+            flex-direction: column; 
+            padding: 0px 25px 26px;           
+            .welcome__inform-container {
+                width: auto;
+                min-width: auto;
+                padding-top: 22px;
+                padding-right: 0;
+                p {
+                    width: auto;                    
+                    min-width: 200px;
+                    line-height: 25px;
+                    margin-top: 22px;
+                    padding-left: 0px;
+                }
+                .welcome__button {
+                    margin-top: 25px;                    
+                    height: 33px;
+                    width: 101px;                
+                    font-size: 10px;                    
+                }                
+            } 
+            .welcome__img-container {
+               display: none;
+            }       
+        }    
+    }
+    #about {
+        .container {                      
+            padding: 0 25px 35px;
+
+            .about__img-container {
+                padding: 0;
+                width: 150px;
+                height: 147px;                
+            }
+            .about__inform-container {
+                width: auto;
+                padding: 0;
+            }
+    
+            h2 {
+                margin: 30px auto 10px;
+                width: 300px;
+                text-align: center;             
+            }
+    
+            p {                
+                line-height: 25px;
+                font-size: 15px;
+                margin-top: 0px;
+                margin-bottom: 0;
+                width: auto;
+                padding: 0px;
+            }
+        }
+    }
+    #service {
+        .container {
+            padding: 31px 26px 45px;
+        }
+
+        header {
+            gap: 37px;
+            margin-bottom: 20px;
+            h2 {
+                width: 270px;
+            }
+            .service__buttons-container {
+                flex-wrap: wrap;
+                column-gap: 10px;
+                row-gap: 6px;
+            }
+        }
+
+        .service__cards-container { 
+            margin-top: 40px;
+            row-gap: 51px;           
+            grid-template-columns: 1fr;
+            grid-template-rows:auto;            
+        }
+    }
+
+#prices {
+    
+    .container {
+        padding: 25px 10px 10px;
+        flex-direction: column;
+        .prices__list_container
+        {
+            margin:auto;
+        }
+        h2 {
+            font-size: 25px;
+            line-height: 30px;
+            text-align: center;
+            padding-left: 0;
+        }
+        
+
+        ul.prices__list {
+            gap: 15px;
+            margin: 36px auto 14px;
+            width: 230px;
+            padding: 31px 26px;
+            li {
+                width: 181px;
+            h5 {
+                background-position: 126px 20px;
+                
+                font-size: 16px;
+                padding-left: 28px;                
+            }
+            &.Active {
+                h5 {
+                    &::after {                 
+                        width: 110px;                    
+                    }
+                }
+            .prices__price-content-wrapper {
+                height: 140px;                
+            }
+         }
+        }
+        }
+
+        .prices__header-and-buttons {
+            width: auto;
+            text-align: center;
+            padding-top: 0; 
+            margin: auto;
+            h3 {
+                text-align: center;
+                max-width: 236px;
+                margin: auto;
+            }           
+
+            .prices__img-container {
+                display: none;
+            }
+            button {
+                margin-top: 19px;
+            }
+        }
+    }
+}
+
+#contacts {
+    .container {
+        padding: 13px 60px 0;
+        h2 {
+            font-size: 25px;
+            line-height: 33px;    
+        }
+
+        .contacts__cards-container {
+            margin-bottom: 129px;
+            margin-top: -18px;
+            .contacts__main-option {
+                width:300px;                
+                background-position: 262px 17px;
+            }                     
+            ul.contacts__options-list {                
+                &.show-list {
+                    width:300px;
+                }
+            }
+        }
+        #cardPlace {
+            height: auto;
+            .contact__card-wrapper {
+                .contact-card__table-wrapper {
+                grid-template-columns: 70px 1fr;
+                line-height: 20px;
+                gap: 10px;
+                }
+            }
+        }
+        .contacts__img-container {            
+            &.hideIt {
+                display: none;
+            }
+            picture {
+                width: 100px;        
+                padding-left:0;         
+            }
+        }
+    }
+}
+
+footer {
+    .container {
+        padding: 20px;
+        gap: 3px;
+        .footer__git-link {
+            margin-left: 27px;
+            .github {
+                margin-left: 3px;
+            }
+        }
+        .footer__social-links__container {
+            margin-left: -13px;
+            margin-top: -13px;
+        }
+    }
+}
+
+}
+
+@media only screen and (max-width: 340px) {
+#service {
+    .container {
+        padding: 31px 18px 45px;
+    }
+ }
+}
+
+@import 'burger.scss';
